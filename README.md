@@ -1,0 +1,2 @@
+# Transformer
+主要是处理甲醇、纯碱、原油三种期货的高频OHLC数据，将其划分为5分钟至月多个时间粒度的OHLC数据以及分位点数据，并对其进行预测，对比Transformer与LSTM、GRU、随机森林、SVR、朴素法的性能，最终基于Transformer在日粒度上的预测结果设计日内交易策略。
